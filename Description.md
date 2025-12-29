@@ -57,3 +57,5 @@ This is a description of Lego Car Chassis Dynamometer
                    so I think endurance of EEPROM is enough through the lifetime of this machine.
                    if you have exceeded the limit of EEPROM writing, just copy the total revolution to another address
                    and change the 'address' variable(0~1023). initial address is 0.
+
+3. Some serial prints for code maintenance are commented out.
