@@ -2,7 +2,9 @@
 This is a description of Lego Car Chassis Dynamometer
 
 [Components of dyno]
-1. Arduino Uno
+1. Arduino Uno R3
+   8bit microcontroller
+   controls motors, displays, and other electronic components
 2. Lego MOC L motor enhanced(red)
    no-load voltage DC 7.4V
    no-load current 0.14A
@@ -19,9 +21,10 @@ This is a description of Lego Car Chassis Dynamometer
    rated 5400rpm
    rated current 0.3A
    maximum air flow 20.76CFM
-6. TCRT5000 infrared reflective sensor
-   DC 3~5V
-   detection distance 0.2~15mm
+6. HAM4311 infrared sensor
+   DC 3.3~5V
+   detection distance 2~30cm
+   digital output
    adjustable sensitivity by potentiometer
 7. tact switch
    used in INPUT_PULLUP mode for toggling
